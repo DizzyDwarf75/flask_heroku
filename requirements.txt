@@ -21,7 +21,6 @@ psycopg2==2.6.1
 
 utils
 db
-net
 wsgi
 http
 webapi
