@@ -1,7 +1,14 @@
 # coding:utf-8
-import importlib
+#   python 3.5
+#import importlib
+#import sys
+#importlib.reload(sys)
+
+# python 2.7
+
 import sys
-importlib.reload(sys)
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 from datetime import datetime
 import json
