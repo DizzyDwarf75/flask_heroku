@@ -20,6 +20,11 @@ class Config():
     # take a reference to the book <<Flask Framework Cookbook>>.
     # But the book only have the version of English.
 
+    MAIL_SERVER = 'smtp.qq.com'
+    MAIL_PORT = 25 
+    FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
+    FLASKY_MAIL_SENDER = 'dizzydwarf75@gmail.com'
+
     @staticmethod
     def init_app(app):
         pass
