@@ -21,10 +21,8 @@ psycopg2==2.6.1
 
 utils
 db
-wsgi
 http
 webapi
 httpserver
-debugerror
 
 
